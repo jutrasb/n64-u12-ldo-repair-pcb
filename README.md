@@ -1,6 +1,8 @@
 # Nintendo 64 U12 LDO Repair PCB
 KiCad Project for Nintendo 64 U12 LDO Repair PCB
 
+**IMPORTANT: If you stumble on this project, do not fabricate these yet. The footprint of the board is incorrect.**
+
 # Background
 
 I came across a Nintendo 64 NUS-CPU-05 motherboard with a seemingly dead Sharp PQ7VZ5 linear regulator at U12. This component is obsolete and has an awkward pinout which prevents simple replacement.
