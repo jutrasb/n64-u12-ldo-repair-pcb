@@ -5,12 +5,12 @@
       "Application": "Pcbnew",
       "Version": "10.0.5"
     },
-    "CreationDate": "2026-08-08T14:21:30-04:00"
+    "CreationDate": "2026-08-20T20:08:08-04:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "N64 U12 Replacement PCB",
-      "GUID": "4e363420-5531-4322-9052-65706c616365",
+      "Name": "N64 U12 LDO Repair PCB",
+      "GUID": "4e363420-5531-4322-904c-444f20526570",
       "Revision": "rev?"
     },
     "Size": {
@@ -35,47 +35,47 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "N64 U12 Replacement PCB-F_Cu.gbr",
+      "Path": "N64 U12 LDO Repair PCB-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "N64 U12 Replacement PCB-B_Cu.gbr",
+      "Path": "N64 U12 LDO Repair PCB-B_Cu.gbr",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "N64 U12 Replacement PCB-F_Paste.gbr",
+      "Path": "N64 U12 LDO Repair PCB-F_Paste.gbr",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "N64 U12 Replacement PCB-B_Paste.gbr",
+      "Path": "N64 U12 LDO Repair PCB-B_Paste.gbr",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "N64 U12 Replacement PCB-F_Silkscreen.gbr",
+      "Path": "N64 U12 LDO Repair PCB-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "N64 U12 Replacement PCB-B_Silkscreen.gbr",
+      "Path": "N64 U12 LDO Repair PCB-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "N64 U12 Replacement PCB-F_Mask.gbr",
+      "Path": "N64 U12 LDO Repair PCB-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "N64 U12 Replacement PCB-B_Mask.gbr",
+      "Path": "N64 U12 LDO Repair PCB-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "N64 U12 Replacement PCB-Edge_Cuts.gbr",
+      "Path": "N64 U12 LDO Repair PCB-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }
@@ -91,24 +91,29 @@
     },
     {
       "Type": "SolderMask",
+      "Thickness": 0.01,
       "Name": "Top Solder Mask"
     },
     {
       "Type": "Copper",
+      "Thickness": 0.035,
       "Name": "F.Cu"
     },
     {
       "Type": "Dielectric",
+      "Thickness": 1.51,
       "Material": "FR4",
       "Name": "F.Cu/B.Cu",
       "Notes": "Type: dielectric layer 1 (from F.Cu to B.Cu)"
     },
     {
       "Type": "Copper",
+      "Thickness": 0.035,
       "Name": "B.Cu"
     },
     {
       "Type": "SolderMask",
+      "Thickness": 0.01,
       "Name": "Bottom Solder Mask"
     },
     {
