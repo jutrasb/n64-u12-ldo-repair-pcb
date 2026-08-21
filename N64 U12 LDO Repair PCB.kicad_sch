@@ -1908,7 +1908,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "801f304d-e5dd-4be7-80d1-8b63cb219f6c")
 		(property "Reference" "J1"
@@ -1931,7 +1931,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom:CustomAdapter_TO-252-5"
+		(property "Footprint" "Custom:CustomAdapter_SharpPQ7VZ5"
 			(at 66.04 80.01 0)
 			(hide yes)
 			(show_name no)
