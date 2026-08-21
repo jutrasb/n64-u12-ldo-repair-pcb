@@ -1,8 +1,6 @@
 # Nintendo 64 U12 LDO Repair PCB
 KiCad Project for Nintendo 64 U12 LDO Repair PCB
 
-**IMPORTANT: If you stumble on this project, do not fabricate these yet. The footprint of the board is incorrect.**
-
 # Background
 
 I came across a Nintendo 64 NUS-CPU-05 motherboard with a seemingly dead Sharp PQ7VZ5 linear regulator at U12. This component is obsolete and has an awkward pinout which prevents simple replacement.
@@ -18,6 +16,10 @@ Theoretically, this PCB would work for any Sharp PQ7VZ5 linear regulator replace
 | U1 | Texas Instruments | Linear Voltage Regulator IC Positive Fixed 1 Output 500mA SOT-23-5 | 1 | 296-TLV78525PDBVRCT-ND |
 | C1, C2 | Murata Electronics | 1 µF ±20% 16V Ceramic Capacitor X5R 0402 (1005 Metric) | 2 | 490-14599-1-ND
 | R1 | Stackpole Electronics Inc | 100 kOhms ±5% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film | 1 | RMCF0402JT100KCT-ND
+
+# PCB Fabrication Notes
+
+0.6mm thickness or flexible PCB recommended.
 
 # Render
 
